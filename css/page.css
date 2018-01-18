@@ -134,17 +134,12 @@ div#page {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) {
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px) {
     #page #header,
     #page #main #content {
       margin-right: 0;
       margin-left: 0;
       width: 100%;
-    }
-
-    .mcoc-chart-container,
-    .mcoc-table-container {
-      display: block;
     }
 }
